@@ -12,6 +12,7 @@
 		93675295205F39AC009C7651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93675293205F39AC009C7651 /* Main.storyboard */; };
 		93675297205F39AC009C7651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93675296205F39AC009C7651 /* Assets.xcassets */; };
 		9367529A205F39AC009C7651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93675298205F39AC009C7651 /* LaunchScreen.storyboard */; };
+		936752A2205F42B0009C7651 /* FlickrPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936752A1205F42B0009C7651 /* FlickrPhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		93675296205F39AC009C7651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93675299205F39AC009C7651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9367529B205F39AC009C7651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936752A1205F42B0009C7651 /* FlickrPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9367528F205F39AC009C7651 /* AppDelegate.swift */,
 				93675291205F39AC009C7651 /* ViewController.swift */,
 				93675293205F39AC009C7651 /* Main.storyboard */,
+				936752A1205F42B0009C7651 /* FlickrPhotosViewController.swift */,
 				93675296205F39AC009C7651 /* Assets.xcassets */,
 				93675298205F39AC009C7651 /* LaunchScreen.storyboard */,
 				9367529B205F39AC009C7651 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936752A2205F42B0009C7651 /* FlickrPhotosViewController.swift in Sources */,
 				93675292205F39AC009C7651 /* ViewController.swift in Sources */,
 				93675290205F39AC009C7651 /* AppDelegate.swift in Sources */,
 			);
